@@ -1,0 +1,113 @@
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+  height: auto;
+  color: white;
+  background: linear-gradient(25deg, #003a73, #2f549f 48%, #003a73);
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+.copy h1 {
+  font-size: 1em;
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px 0px 20px;
+  height: 85vh;
+  background-image: url(../assets/FONDO1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+.tam-video {
+  width: 100%;
+  height: auto;
+}
+.video-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: backInLeft;
+  animation-duration: 2s;
+  margin-top: 10px;
+  width: 100%;
+  height: 3rem;
+  background: #ffa000;
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 3px 10px rgb(0, 0, 0);
+  margin-top: 40px;
+}
+
+.video-container a:hover {
+  background: linear-gradient(25deg, #003a73, #2f549f 48%, #003a73);
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 360px) {
+  .video-container {
+    padding: 0px 40px 0px 40px;
+    font-size: 26px;
+  }
+  .copy{
+    font-size: 15px;
+    padding: 20px 40px 20px 40px;
+  }
+  .video-container a{
+    width: 100%;
+    max-width: 74%;
+    height: 5rem;
+  }
+  .tam-video {
+    width: 100%;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 760px) {
+  .video-container {
+    padding: 0px 40px 0px 40px;
+    font-size: 30px;
+  }
+  .copy{
+    font-size: 26px;
+    padding: 20px 40px 20px 40px;
+  }
+  .video-container a{
+    max-width: 66%;
+    height: 5rem;
+  }
+  .tam-video {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1366px) {
+  .video-container {
+    padding: 0px 110px 0px 110px;
+    font-size: 60px;
+  }
+  .copy{
+    font-size: 44px;
+    padding: 20px 110px 20px 110px;
+  }
+  .video-container a{
+    max-width: 69%;
+    height: 5rem;
+  }
+  .tam-video {
+    width: 100%;
+    height: 70vh;
+  }
+}
