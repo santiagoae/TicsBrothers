@@ -1,0 +1,39 @@
+.carruselBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 50px 0 40px 0;
+  background-image: url(../assets/medellinFondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.tamCarrusel {
+  width: 60%;
+}
+
+@media (max-width: 1366px) {
+  .tamCarrusel {
+    width: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  .tamCarrusel {
+    width: 80%;
+  }
+}
+
+@media (max-width: 540px) {
+  .tamCarrusel {
+    width: 80%;
+  }
+}
+
+@media (max-width: 360px) {
+  .tamCarrusel {
+    width: 80%;
+  }
+}

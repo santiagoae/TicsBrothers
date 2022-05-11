@@ -1,5 +1,5 @@
 import React from 'react'
-import imgQuienes from "../assets/quienesSomos.jpg"
+import imgQuienes from "../../assets/quienesSomos.jpg"
 
 function QuienesSomos() {
   return (

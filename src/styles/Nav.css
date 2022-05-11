@@ -1,0 +1,9 @@
+.navContenedor{
+    background: rgba(0, 58, 115, 0.596) ;   
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+

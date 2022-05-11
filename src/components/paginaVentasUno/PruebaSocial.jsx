@@ -1,5 +1,5 @@
 import React from "react";
-import { testimonio } from "../assets/testimonios/testimnio";
+import testimonio from "../../assets/testimonios/testimnio";
 function PruebaSocial() {
   return (
     <div className="contenedor">    

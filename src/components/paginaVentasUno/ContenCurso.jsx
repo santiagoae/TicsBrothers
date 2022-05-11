@@ -1,5 +1,5 @@
 import React from "react";
-import contCurso from "../assets/mockup/contCurso.png";
+import contCurso from "../../assets/mockup/contCurso.png";
 
 function ContenCurso() {
   return (

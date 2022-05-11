@@ -1,5 +1,5 @@
 import React from "react";
-import imgMoneda from "../assets/garantia.png";
+import imgMoneda from "../../assets/garantia.png";
 
 function Garantia() {
   return (

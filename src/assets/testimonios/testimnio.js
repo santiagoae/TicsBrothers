@@ -5,7 +5,7 @@ import cuatro from "./4.png";
 import cinco from "./5.png";
 import seis from "./6.png";
 
-export const testimonio = {
+const testimonio = {
     uno:uno,
     dos:dos,
     tres:tres,
@@ -13,3 +13,5 @@ export const testimonio = {
     cinco:cinco,
     seis:seis,
 };
+
+export default testimonio;

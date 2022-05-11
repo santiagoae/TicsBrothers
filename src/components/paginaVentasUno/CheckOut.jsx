@@ -1,5 +1,5 @@
 import React from "react";
-import { mediosPago } from "../assets/mediosPago/mediosPago";
+import mediosPago from "../../assets/mediosPago/mediosPago"
 import 'animate.css';
 
 function CheckOut() {

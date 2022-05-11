@@ -9,7 +9,7 @@ import pse from "./pse.jpg";
 import sencillito from "./sencillito.jpg";
 import sepa from "./sepa.jpg";
 
-export const mediosPago = {
+const mediosPago = {
     american: american,
     baloto:baloto,
     visa:visa,
@@ -21,3 +21,5 @@ export const mediosPago = {
     sencillito:sencillito,
     sepa:sepa
 };
+
+export default mediosPago;
