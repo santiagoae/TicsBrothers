@@ -3,7 +3,7 @@ import Video from "./Video";
 import Footer from "./Footer"
 function CursoGratis() {
   return (
-    <div>
+    <div className="fullScreen">
         <Copy/>
         <Video/>
         <Footer />

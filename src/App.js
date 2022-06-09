@@ -10,8 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/ticsKahoot" element={<PagVentas1 />} />
-        <Route exact path="/unPasoMas" element={<UnPasoMas />} />
-        <Route path="/cursoGratis" element={<CursoGratis />} />
+        <Route exact path="/bienvenida" element={<UnPasoMas />} />
+        <Route path="/claseGratis" element={<CursoGratis />} />
       </Routes>
     </Router>
   );

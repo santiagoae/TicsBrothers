@@ -1,86 +1,83 @@
-.boxCards{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    background: rgb(0,58,115);
-    background: linear-gradient(25deg, rgba(0,58,115,1) 0%, rgba(47,84,159,1) 48%, rgba(0,58,115,1) 100%);    
-    height: auto;    
-    font-size: 18px;
-    padding: 40px 0 40px 0;
-    font-family: 'Montserrat';
+.boxCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-image: url(../assets/backgrounds/5.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  font-size: 18px;
+  padding: 40px 0 40px 0;
+  font-family: "Montserrat";
 }
-.tamCards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;       
-    width: 28%;
-    padding: 20px 40px 50px 40px;
-    height: auto;         
-    background: rgb(0,58,115);
-    background: radial-gradient(circle, rgba(0,58,115,1) 0%, rgba(47,84,159,1) 40%, rgba(0,58,115,1) 100%);
-    color: #ffa000;    
-    text-align: center;
-    border-radius: 1%;
+.tamCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 28%;
+  padding: 20px 40px 50px 40px;
+  height: auto;
+  background: rgb(0, 58, 115);
+  background: radial-gradient(
+    circle,
+    rgba(0, 58, 115, 1) 0%,
+    rgba(47, 84, 159, 1) 40%,
+    rgba(0, 58, 115, 1) 100%
+  );
+  color: #ffa000;
+  text-align: center;
+  border-radius: 1%;
 }
-.tamCards h1{
-    font-size: 2em;    
-}
-
-.tamCards p{
-
-    font-size: 0.8em;    
-    font-weight: 200;
-    text-align: start;   
-}
-.tamCards a{
-    font-size: 1em;    
+.tamCards h1 {
+  font-size: 2em;
 }
 
+.tamCards p {
+  font-size: 0.8em;
+  font-weight: 200;
+  text-align: start;
+}
+.tamCards a {
+  font-size: 1em;
+}
 
 @media (max-width: 1366px) {
-    .boxCards{              
-        font-size: 14px;        
-    }   
-} 
+  .boxCards {
+    font-size: 14px;
+  }
+}
 
 @media (max-width: 720px) {
-
-    .boxCards{
-        display:flex;
-        flex-direction: column;
-        justify-content: space-around;               
-        font-size: 18px;        
-    }
-    .tamCards{
-        width: 60%;
-        margin: 20px 0 20px 0;
-    }
-    
-} 
+  .boxCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+  .tamCards {
+    width: 60%;
+    margin: 20px 0 20px 0;
+  }
+}
 
 @media (max-width: 540px) {
-    
-    .tamCards{
-        width: 70%;
-        margin: 20px 0 20px 0;
-    }
-    .tamCards h1{
-        font-size: 1.6em;
-    }
-} 
+  .tamCards {
+    width: 70%;
+    margin: 20px 0 20px 0;
+  }
+  .tamCards h1 {
+    font-size: 1.6em;
+  }
+}
 
 @media (max-width: 360px) {
-
-    .tamCards{
-        width: 85%;
-        margin: 20px 0 20px 0;
-    }
-    .tamCards a{
-        font-size: 0.8em;
-    }
-} 
-
-
-
-
+  .tamCards {
+    width: 85%;
+    margin: 20px 0 20px 0;
+  }
+  .tamCards a {
+    font-size: 0.8em;
+  }
+}

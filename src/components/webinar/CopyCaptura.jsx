@@ -1,7 +1,7 @@
 function CopyCaptura(props) {
   return (
     <div className="copy-form">
-      <h5>¡ME GUSTARÍA SABER <span className="color-especifico">CÓMO SE HACE!</span></h5>
+      <h5> CONVIÉRTE TU CLASE EN UNA VERDADERA EXPERIENCIA  <span className="color-especifico">DE APRENDIZAJE SIN ESFORZARTE.</span></h5>
     </div>
   );
 }

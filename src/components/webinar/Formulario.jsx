@@ -29,11 +29,12 @@ function Formulario(props) {
     } catch (error) {
       console.log(error);
     }
-    navigate("/cursoGratis");
+    navigate("/claseGratis");
   };
 
   return (
     <div className="form-container">
+      <p>DOMINA EL AULA Y TUS CLASES NO VOLVERÁN A SER ABURRIDAS.</p>
       <div className="formulario">
         <form onSubmit={(e) => submit(e)}>
           <input
@@ -43,6 +44,7 @@ function Formulario(props) {
             id="email"
             value={datos.email}
             placeholder="Ingresa tu correo electronico"
+            required
           />
           <button type="submit" className="btn ">
             VER CLASE GRATUITA

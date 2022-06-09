@@ -1,6 +1,6 @@
 import React from "react";
-import mediosPago from "../../assets/mediosPago/mediosPago"
-import 'animate.css';
+import mediosPago from "../../assets/mediosPago/mediosPago";
+import "animate.css";
 
 function CheckOut() {
   return (
@@ -9,7 +9,11 @@ function CheckOut() {
         ACCEDE A TODO POR SOLO <br />
         <span className="precio">$29</span>
       </h1>
-      <a href="https://bit.ly/3weTWsA" target="_blanc"> <button>COMPRAR AHORA</button> </a>
+      <div className="checkOutButton">
+        <a href="https://bit.ly/3weTWsA" target="_blanc">          
+          <button>COMPRAR AHORA</button>
+        </a>
+      </div>
       <div>
         <div className="mediosPago">
           <img src={mediosPago.visa} alt="american" />

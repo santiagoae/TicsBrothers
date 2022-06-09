@@ -10,10 +10,14 @@ import Nav from "./Nav";
 import PreguntasFrec from "./PreguntasFrec";
 import PruebaSocial from "./PruebaSocial";
 import QuienesSomos from "./QuienesSomos";
+import wpp from "../../assets/wpp.png"
 
 function pagVentas1() {
   return (
-    <div>
+    <div >
+      <div id="wpp">
+        <a href="https://bit.ly/3FZkAtR" target="_blank"><img src={wpp} alt="wpp" /></a>
+      </div>      
       <header id="header">
         <Nav />
       </header>

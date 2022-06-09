@@ -1,50 +1,40 @@
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 
 
 function Video(props) {
-
   const [mostrar, setMostrar] = useState(false);
 
-  useEffect(()=>{
-    const boton = setTimeout(()=>{
+  useEffect(() => {
+    const boton = setTimeout(() => {
       setMostrar(true);
-    }, 12000);
+    }, 1620000);
 
     return () => clearTimeout(boton);
-  }, []);
-
+  }, []);  
 
   return (
     <div className="body">
-      <div className="video-container">
-        
-          <iframe
-            src="https://player.vimeo.com/video/680855862?h=70b12d8fa4&color=fefefe&portrait=0"
-            // width="80%"
-            // height="80%"
-            className="tam-video"
-            frameborder="0"
-            allow="autoPlay; fullscreen;"
-            allowfullscreen
-          ></iframe>
-        
+      <div className="video-container">        
 
-        {/* <video
-          className="tam-video"
-          src="https://vimeo.com/680855862"
-          autoPlay
-          controls
-          loop
-        ></video> */}
-        
-        {mostrar && <a
-          href="https://bit.ly/3weTWsA"
-          target="_blank"
-          className="btn"
-        >
-          IR AL ENTRENAMIENTO COMPLETO
-        </a>}
+        <iframe
+          src="https://fast.wistia.net/embed/iframe/nm5pv1cod4"
+          title="WEBINAR L Video"
+          allow="autoplay; fullscreen"
+          allowtransparency="true"
+          frameborder="0"
+          scrolling="no"
+          className="wistia_embed tam-video" 
+          name="wistia_embed"
+          msallowfullscreen
+          width="640"
+          height="360"
+        ></iframe>        
 
+        {mostrar && (
+          <a href="https://bit.ly/3GWboqO" target="_blank" className="btn">
+            QUIERO UNIRME AHORA
+          </a>
+        )}
       </div>
     </div>
   );

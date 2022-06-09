@@ -38,22 +38,36 @@ const Carrusel = () => {
               data-bs-slide-to="3"
               aria-label="Slide 4"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <a
-                href="https://www.youtube.com/watch?v=pANtMqNWBek"
+                href="/bienvenida"
                 target="_blank"
               >
-                <img src={Img.P} className="d-block w-100" alt="kahoot" />
+                <img src={Img.Gratis} className="d-block w-100" alt="kahoot" />
+              </a>
+            </div>
+            <div className="carousel-item">
+              <a
+                href="https://www.youtube.com/watch?v=pANtMqNWBek"
+                target="_blank "
+              >
+                <img src={Img.P} className="d-block w-100" alt="ingles" />
               </a>
             </div>
             <div className="carousel-item">
               <a
                 href="https://www.youtube.com/watch?v=HAb7j5QIWXw"
-                target="_blank "
+                target="_blank"
               >
-                <img src={Img.Ingles} className="d-block w-100" alt="ingles" />
+                <img src={Img.Ingles} className="d-block w-100" alt="mapas" />
               </a>
             </div>
             <div className="carousel-item">
@@ -61,7 +75,7 @@ const Carrusel = () => {
                 href="https://www.youtube.com/watch?v=5n_4fco0Qjs"
                 target="_blank"
               >
-                <img src={Img.Mapas} className="d-block w-100" alt="mapas" />
+                <img src={Img.Mapas} className="d-block w-100" alt="cosasg" />
               </a>
             </div>
             <div className="carousel-item">
